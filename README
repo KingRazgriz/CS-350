@@ -1,10 +1,5 @@
-# CS-350
-Emerging Sys Arch &amp; Tech 2025
-Jamar Sampson
-
 Our project this semester involved using a Raspberry Pi to build an embedded system. This system is designed to monitor temperature & allow user control through buttons, with results display on the installed led screen. The underlying software, which included the logic for reading the sensor & managing the system states, seemed to be working fine & functioning as intended throughout all steps. However, my project came to a screeching halt when I suffered a critical failure via the led screen. I accidentally shorted the module & was unable to continue.
 
                   The experience I gained in these classed highlighted different strengths in areas of software design & GPIO programming for different components of the system. The main area f0or improvement is in my hardware handling, specifically adopting a more patient, somewhat methodical approach. The ability to check connections ahead of time or use a multimeter would have been a great help as well before applying the power. This setback underscored the vital difference between software, which can be debugged, and hardware, where a simple error can cause permanent failure.
 	
 	The main takeaway is the immense value of building redundancy and resilience into a project. For future work, I will prioritize adding backup output methods, like a serial monitor or web server, to prevent a single point of hardware failure from stopping all progress. The skills gained in state machine design and systematic debugging remain highly valuable and directly transferable to future software and embedded systems projects.
-<img width="468" height="310" alt="image" src="https://github.com/user-attachments/assets/a73c4104-11db-41cd-aec5-f9703ca78f0c" />
